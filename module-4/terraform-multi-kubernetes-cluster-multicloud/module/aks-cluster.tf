@@ -115,7 +115,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
   kubernetes_version  = var.aks_kubernetes_version
   node_resource_group = "${var.aks_prefix}-noderg"
   sku_tier            = "Standard"
-  private_cluster_enabled = false
+  private_cluster_enabled = true
   azure_policy_enabled = true
 
   default_node_pool {
