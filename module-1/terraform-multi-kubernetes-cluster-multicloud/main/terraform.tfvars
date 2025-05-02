@@ -35,7 +35,7 @@ addon_version_coredns   = ["v1.11.4-eksbuild.2", "v1.10.1-eksbuild.18", "v1.10.1
 csi_snapshot_controller_version = ["v8.2.0-eksbuild.1", "v8.1.0-eksbuild.2", "v8.1.0-eksbuild.1", "v7.0.1-eksbuild.1", "v6.3.2-eksbuild.1"]
 
 
-###############################################Provide Parameters for EKS Cluster###########################################################
+###############################################Provide Parameters for AKS Cluster###########################################################
 
 aks_prefix = "aks"
 location = ["East US", "East US 2", "Central India", "Central US"]
